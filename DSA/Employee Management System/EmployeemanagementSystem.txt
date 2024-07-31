@@ -1,0 +1,25 @@
+Array Representation:
+
+Arrays are a fundamental data structure that store elements in contiguous memory locations.
+Advantages include constant-time access to elements (O(1)), easy traversal, and simple implementation.
+
+Time Complexity Analysis:
+
+Add Employee: 
+
+O(1) if space is available.
+Search Employee: O(n) in the worst case, as it may require checking all elements.
+Traverse Employees: O(n), as each element needs to be visited.
+
+Delete Employee:
+
+ O(n) in the worst case, as it may require searching for the element to delete.
+Limitations of Arrays:
+
+Fixed size: 
+
+Arrays cannot grow or shrink dynamically, leading to wasted space or overflow.
+Inflexible: Insertions and deletions can be inefficient, especially in large arrays.
+Use Cases: Arrays are suitable for scenarios where the size is known in advance and random access is required.
+
+By understanding and implementing these concepts, we can efficiently manage employee records using arrays in the Employee Management System.

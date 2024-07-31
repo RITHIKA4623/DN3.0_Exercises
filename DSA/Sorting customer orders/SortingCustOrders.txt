@@ -1,0 +1,21 @@
+Sorting Algorithms:
+
+Bubble Sort: 
+A simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. It has a time complexity of O(n^2) in the worst case.
+
+Quick Sort:
+ A divide-and-conquer algorithm that picks an element as a pivot and partitions the array around the pivot. It has a time complexity of O(n log n) on average and O(n^2) in the worst case.
+
+Time Complexity Analysis:
+
+Bubble Sort:
+
+ O(n^2) in the worst and average cases. It is inefficient for large datasets.
+Quick Sort: O(n log n) on average. It is much faster than Bubble Sort for large datasets.
+Comparison:
+
+Bubble Sort is easy to understand and implement but is inefficient for large datasets due to its quadratic time complexity.
+
+Quick Sort is more complex but is generally preferred for its superior average-case performance of O(n log n), making it suitable for large datasets.
+
+By implementing both sorting algorithms, we can see that Quick Sort is generally preferred over Bubble Sort for sorting large datasets due to its better average-case time complexity.

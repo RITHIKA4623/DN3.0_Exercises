@@ -1,0 +1,24 @@
+Linked Lists:
+
+Singly Linked List:
+
+ Each node contains data and a reference to the next node. It allows for efficient insertions and deletions.
+Doubly Linked List: Each node contains data and references to both the next and previous nodes. It allows for traversal in both directions but requires more memory.
+
+Time Complexity Analysis:
+
+Add Task: 
+O(n) in the worst case, as we need to traverse the list to find the end.
+Search Task: O(n) in the worst case, as we may need to traverse the entire list.
+Traverse Tasks: O(n), as each element needs to be visited.
+
+Delete Task: 
+O(n) in the worst case, as we may need to traverse the entire list to find the element to delete.
+Advantages of Linked Lists:
+
+Dynamic Size: 
+
+Linked lists can grow and shrink dynamically, avoiding the fixed size limitation of arrays.
+Efficient Insertions/Deletions: Insertions and deletions are efficient, especially when they occur at the beginning or middle of the list.
+
+By implementing these concepts, we can efficiently manage tasks using a singly linked list in the Task Management System.
