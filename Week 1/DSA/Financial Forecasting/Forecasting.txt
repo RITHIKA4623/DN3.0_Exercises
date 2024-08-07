@@ -1,0 +1,16 @@
+1.FinancialForecasting.java:
+
+Contains the methods for calculating future values using recursion and memoization.
+Provides a simple recursive method (predictFutureValue) and an optimized method using memoization (predictFutureValueMemo).
+
+2.FinancialData.java:
+
+Encapsulates the financial data such as initial value, growth rate, and number of years.
+Provides getter and setter methods for accessing and modifying the financial data.
+
+3.ForecastingApp.java:
+
+Main application class that initializes the financial data and performs forecasting using both the simple recursive method and the memoized method.
+Demonstrates the usage of the FinancialForecasting methods and outputs the results.
+
+By organizing the project into these three files, we can maintain a clean separation of concerns and make the code more modular and manageable.

@@ -1,0 +1,22 @@
+1.Search Algorithms:
+
+Linear Search:
+ This algorithm sequentially checks each element in the list until the target element is found or the list ends. It has a time complexity of O(n).
+Binary Search: This algorithm repeatedly divides the sorted list in half, eliminating half of the remaining elements each time until the target element is found or the list ends. It has a time complexity of O(log n).
+
+2.Time Complexity Analysis:
+
+Linear Search:
+ O(n) in the worst case, where n is the number of books. It is straightforward but can be inefficient for large datasets.
+
+Binary Search:
+ O(log n) in the worst case, where n is the number of books. It is much faster for large sorted datasets but requires the list to be sorted.
+
+3.When to Use Each Algorithm:
+
+Linear Search:
+ Suitable for small or unsorted datasets. It does not require sorting and is simple to implement.
+Binary Search: 
+Suitable for large sorted datasets. It is more efficient for large datasets but requires the list to be sorted, which adds an overhead if the list is frequently updated.
+
+By implementing these concepts, we can efficiently search for books in the Library Management System using both linear and binary search algorithms.

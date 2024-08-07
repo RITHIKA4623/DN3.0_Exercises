@@ -1,0 +1,23 @@
+Cases:
+Best, Average, and Worst-Case Scenarios:
+Linear Search: Best O(1), Average O(n), Worst O(n)
+Binary Search: Best O(1), Average O(log n), Worst O(log n)
+
+Time Complexity Analysis:
+
+Linear Search: Iterates through the array elements one by one. Time complexity is O(n) in the worst case.
+Binary Search: Requires the array to be sorted. It divides the array into halves and reduces the search space. Time complexity is O(log n) in the worst case.
+
+Comparison:
+
+Linear Search is simpler and does not require the array to be sorted. It is suitable for small datasets or unsorted data.
+Binary Search is more efficient for larger datasets but requires the array to be sorted. It is suitable for large, sorted datasets where fast search performance is needed.
+
+
+By implementing both search algorithms, we can see that binary search is more suitable for large, sorted datasets due to its logarithmic time complexity, which provides faster performance compared to linear search's linear time complexity.
+
+
+
+
+
+
